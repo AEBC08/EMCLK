@@ -1,4 +1,4 @@
 # Language
-[•简体中文]()
+•[English]()
 # IMCLK (IKun-Minecraft-Launcher-Kernel)
-**This is a new Minecraft Java version launcher kernel**
+**这是一个新的Minecraft Java版启动器**
