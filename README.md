@@ -1,4 +1,3 @@
-![Visits](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=AEBC08.IMCLK)
 # Language
 **• [简体中文](https://github.com/AEBC08/IMCLK/blob/main/README.md)  
 • [English](https://github.com/AEBC08/IMCLK/blob/main/README_English.md)**
