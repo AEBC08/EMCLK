@@ -13,3 +13,5 @@
 ### 示意图
 ![示意图](https://github.com/AEBC08/IMCLK/blob/main/Diagram/Diagram.png)  
 ![示意图1](https://github.com/AEBC08/IMCLK/blob/main/Diagram/Diagram1.png)
+### 鸣谢
+**• [rechalow](https://github.com/rechalow):** ***他为启动器内核的基低开发提供了帮助***
