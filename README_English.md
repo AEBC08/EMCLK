@@ -6,7 +6,7 @@
 # IMCLK (IKun-Minecraft-Launcher-Kernel)
 **This is a new Minecraft Java edition launcher kernel based on Python**
 ## Developers
-**• [AEBC08](https://github.com/AEBC08)**: ***Provided a foundation for this launcher kernel, and subsequent code was written based on this foundation***
+**• [AEBC08](https://github.com/AEBC08):** ***Provided a foundation for this launcher kernel, and subsequent code was written based on this foundation***
 ### Import libraries
 **• [json](https://docs.python.org/3/library/json.html)  
 • [platform](https://docs.python.org/3/library/platform.html)  
