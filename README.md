@@ -10,3 +10,6 @@
 • [platform](https://docs.python.org/3/library/platform.html)  
 • [os](https://docs.python.org/3/library/os.html)  
 • [subprocess](https://docs.python.org/3/library/subprocess.html)**
+### 示意图
+![示意图](https://github.com/AEBC08/IMCLK/blob/main/Diagram/Diagram.png)  
+![示意图1](https://github.com/AEBC08/IMCLK/blob/main/Diagram/Diagram1.png)
