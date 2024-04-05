@@ -1,6 +1,8 @@
 # Language
 **• [简体中文](https://github.com/AEBC08/IMCLK/blob/main/README.md)  
 • [English](https://github.com/AEBC08/IMCLK/blob/main/README_English.md)**
+# Tips
+**The comments inside the code are in Chinese, and you can use a translator to translate them into your language**
 # IMCLK (IKun-Minecraft-Launcher-Kernel)
 **这是一个新的基于Python的Minecraft Java版本启动器内核**
 ## 开发者
