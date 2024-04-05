@@ -6,7 +6,7 @@
 ## 开发者
 **• [AEBC08](https://github.com/AEBC08):** ***为此启动器内核提供了基础，之后的代码在此基础上编写的***
 ### 鸣谢
-**• [rechalow](https://github.com/rechalow):** ***他为启动器内核的基础开发提供了帮助***
+**• [rechalow](https://github.com/rechalow):** ***为启动器内核的基础开发提供了帮助***
 ### 导入库
 **• [json](https://docs.python.org/3/library/json.html): _用于解析Minecraft的JSON来获取Minecraft的各种配置参数_  
 • [platform](https://docs.python.org/3/library/platform.html): _用于获取系统的详细信息以保证能够正确启动Minecraft_  
