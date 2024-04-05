@@ -7,6 +7,8 @@
 **This is a new Minecraft Java edition launcher kernel based on Python**
 ## Developers
 **• [AEBC08](https://github.com/AEBC08):** ***Provided a foundation for this launcher kernel, and subsequent code was written based on this foundation***
+### Thanks
+**• [rechalow](https://github.com/rechalow):** ***Provided assistance for the basic development of the launcher kernel***
 ### Import libraries
 **• [json](https://docs.python.org/3/library/json.html): _Used to parse the JSON of Minecraft to obtain various configuration parameters of Minecraft_  
 • [platform](https://docs.python.org/3/library/platform.html): _Used to obtain detailed information about the system to ensure proper startup of Minecraft_  
