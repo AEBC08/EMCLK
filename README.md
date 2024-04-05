@@ -4,7 +4,9 @@
 # IMCLK (IKun-Minecraft-Launcher-Kernel)
 **这是一个新的基于Python的Minecraft Java版本启动器内核**
 ## 开发者
-**• [AEBC08](https://github.com/AEBC08):** ***为此启动器内核提供了基础，之后的代码在此基础上编写的***
+**• [AEBC08](https://github.com/AEBC08): _主开发者，为此启动器内核提供了基础，之后的代码在此基础上编写的_  
+• [xiaoshuaiyo](https://github.com/xiaoshuaiyo): _次开发者，参与之后的开发_  
+• [RATE](https://github.com/e2662020): _次开发者，参与之后的开发_**
 ### 鸣谢
 **• [rechalow](https://github.com/rechalow):** ***为此启动器内核的基础开发提供了帮助***
 ### 导入库
