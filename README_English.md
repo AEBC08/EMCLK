@@ -6,7 +6,7 @@
 # IMCLK (IKun Minecraft Launcher Kernel)
 **This is a new Minecraft Java edition launcher kernel based on Python  
 This project belongs to the RATE studio team**  
-<img src="https://github.com/AEBC08/IMCLK/blob/main/RATEstudio_logio/RATEstudio1.png" width="30%" height="30%">
+<img src="https://github.com/AEBC08/IMCLK/blob/main/RATEstudio_logio/RATEstudio.png" width="30%" height="30%">
 ## Developers
 **• [AEBC08](https://github.com/AEBC08): _Primary developers, Provided a foundation for this launcher kernel, and subsequent code was written based on this foundation_  
 • [xiaoshuaiyo](https://github.com/xiaoshuaiyo): _Secondary developers, participating in subsequent development_  
