@@ -12,3 +12,6 @@
 • [platform](https://docs.python.org/3/library/platform.html)  
 • [os](https://docs.python.org/3/library/os.html)  
 • [subprocess](https://docs.python.org/3/library/subprocess.html)**
+### Diagram
+![Diagram](https://github.com/AEBC08/IMCLK/blob/main/Diagram/Diagram.png)  
+![Diagram1](https://github.com/AEBC08/IMCLK/blob/main/Diagram/Diagram1.png)
