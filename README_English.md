@@ -15,7 +15,7 @@ This project belongs to the RATE studio team**
 **• [rechalow](https://github.com/rechalow):** ***Provided assistance for the basic development of the launcher kernel***
 ### Import libraries
 **• [json](https://docs.python.org/3/library/json.html): _Used to parse the JSON of Minecraft to obtain various configuration parameters of Minecraft_  
-• [platform](https://docs.python.org/3/library/platform.html): _Used to obtain detailed information about the system to ensure proper startup of Minecraft_  
+• [platform](https://docs.python.org/3/library/platform.html): _Used to obtain detailed information about the system to ensure proper launch of Minecraft_  
 • [os](https://docs.python.org/3/library/os.html): _Used for viewing files and other operations_  
 • [subprocess](https://docs.python.org/3/library/subprocess.html): _Used to run Minecraft and receive Minecraft's running logs_**
 ### Diagram
