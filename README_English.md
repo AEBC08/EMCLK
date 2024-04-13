@@ -21,3 +21,6 @@ This project belongs to the RATE studio team**
 ### Diagram
 ![Diagram](https://github.com/AEBC08/IMCLK/blob/main/Diagram/Diagram.png)  
 ![Diagram1](https://github.com/AEBC08/IMCLK/blob/main/Diagram/Diagram1.png)
+### Update logs
+**• Updated support for Fabric Loader, only supports launch newer versions, currently does not support decompressing Natives  
+• Written the basic part of the launcher, which only supports launch newer versions and currently does not support decompressing Natives**
