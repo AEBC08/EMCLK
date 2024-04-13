@@ -2,8 +2,8 @@
 **• [简体中文](https://github.com/AEBC08/IMCLK/blob/main/README.md)  
 • [English](https://github.com/AEBC08/IMCLK/blob/main/README_English.md)**
 # IMCLK (IKun Minecraft Launcher Kernel)
-**这是一个新的基于Python的Minecraft Java版本启动器内核  
-该项目隶属于RATE studio团队**  
+**这是一个新的基于 Python 的 Minecraft Java 版本启动器内核  
+该项目隶属于 RATE studio 团队**  
 <img src="https://github.com/AEBC08/IMCLK/blob/main/RATEstudio_logio/RATEstudio.png" width="30%" height="30%">
 ## 开发者
 **• [AEBC08](https://github.com/AEBC08): _主开发者，为此启动器内核提供了基础，之后的代码在此基础上编写的_  
@@ -19,3 +19,6 @@
 ### 示意图
 ![示意图](https://github.com/AEBC08/IMCLK/blob/main/Diagram/Diagram.png)  
 ![示意图1](https://github.com/AEBC08/IMCLK/blob/main/Diagram/Diagram1.png)
+### 更新日志
+**• 更新了对于 Fabric Loader 的支持，仅支持启动较新的版本，暂不支持解压 Natives  
+• 编写了启动器的基础部分，仅支持启动较新的版本，暂不支持解压 Natives**
