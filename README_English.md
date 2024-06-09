@@ -26,7 +26,8 @@
 * **[`zipfile`](https://docs.python.org/3/library/zipfile.html)** - _For unzipping Natives_
 
 ### Example of Project Reference
-**This project supports being directly referenced and then calling functions to launch Minecraft.
+**This project supports being directly referenced and then calling functions to launch Minecraft.  
+Please note that all the comments in the code are in Chinese; you may choose to use a translator to translate them into Chinese.  
 Here is a demonstration call:**
 
 ```python
