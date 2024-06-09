@@ -69,6 +69,6 @@ IMCLK.launch_minecraft("Your Java path", "Your .minecraft dir path", "Minecraft 
 <img src="https://github.com/AEBC08/IMCLK/blob/main/Diagram/Diagram1.png" width="50%" height="50%">
 
 ### 更新日志
-* **`2024.6.9`** - _更新了对 Forge Loader、NeoForged Loader、Quilt Loader 以及主流 Mod Loader 的支持，支持解压 Natives 文件和首次启动时设置 Minecraft 语言，兼容最新和旧版本的 Minecraft ，主开发者只测试了从最新的 Minecraft(1.20.6)到 Minecraft 1.7.10 的版本，这些版本都可以正常启动_
+* **`2024.6.9`** - _更新了对 Forge Loader、NeoForged Loader、Quilt Loader 以及主流 Mod Loader 的支持，支持解压 Natives 文件和首次启动时设置 Minecraft 语言，兼容最新和旧版本的 Minecraft ，主开发者只测试了从当前最新的 Minecraft(1.20.6)到 Minecraft 1.7.10 的版本，这些版本都可以正常启动_
 * **`2024.?.?`** - _更新了对 Fabric Loader 的支持，目前只支持启动较新的版本，尚不支持解压 Natives 文件_
 * **`2024.?.?`** - _编写了启动器的基础部分，目前只支持启动较新的版本，尚不支持解压 Natives 文件_
