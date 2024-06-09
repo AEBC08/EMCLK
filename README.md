@@ -26,7 +26,8 @@
 * **[`zipfile`](https://docs.python.org/3/library/zipfile.html)** - _用于解压 Natives_
 
 ### 引用本项目示例
-**本项目支持被直接引用并调用函数启动 Minecraft。以下是调用示例：**
+**本项目支持被直接引用并调用函数启动 Minecraft  
+以下是调用示例：**
 
 ```python
 import IMCLK
