@@ -5,7 +5,7 @@
 # IMCLK (IKun Minecraft Launcher Kernel)
 **This is a new _Minecraft Java_ version launcher kernel based on _Python_
 The project is part of the _RATE studio_ team**  
-![RATEstudio Logo](https://github.com/AEBC08/IMCLK/blob/main/RATEstudio_logio/RATEstudio.png)
+<img src="https://github.com/AEBC08/IMCLK/blob/main/RATEstudio_logio/RATEstudio.png" width="30%" height="30%">
 
 ## Developers
 * **[[AEBC08](https://github.com/AEBC08)]: _Main developer, almost the entire launcher kernel was developed by this individual_**
@@ -65,8 +65,8 @@ Explanation of the launch_minecraft function parameters:**
 * **[out_jvm_params]: _Optional parameter, bool type, output JVM parameters, modifying return_methods parameter can rewrite the output method, default value is False_**
 
 ### Diagrams (Partial)
-![Diagram](https://github.com/AEBC08/IMCLK/blob/main/Diagram/Diagram.png)
-![Diagram1](https://github.com/AEBC08/IMCLK/blob/main/Diagram/Diagram1.png)
+<img src="https://github.com/AEBC08/IMCLK/blob/main/Diagram/Diagram.png" width="50%" height="50%">
+<img src="https://github.com/AEBC08/IMCLK/blob/main/Diagram/Diagram1.png" width="50%" height="50%">
 
 ### Update Log
 * **[2024.6.9]: _Updated support for mainstream Mod Loaders such as Forge Loader, NeoForged Loader, Quilt Loader, etc., supports unzipping Natives and setting Minecraft language on first launch, compatible with the latest and older versions of Minecraft, the main developer only tested versions from the latest Minecraft (1.20.6) to Minecraft 1.7.10, all of which can be launched normally_**
