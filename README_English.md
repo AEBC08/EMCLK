@@ -48,7 +48,7 @@ IMCLK.launch_minecraft(r"Your Java path", r"Your .minecraft dir path", "Minecraf
 1. First, import the project.
 2. Create a list-type variable named `log_list`.
 3. Inherit the `IMCLKReturn` class and override the `return_log` function within the class.
-4. Call the `launch_minecraft` function and pass the overridden class and other parameters into the function to launch Minecraft.
+4. Call the `launch_minecraft` function and pass the overridden class and other parameters into the function to launch Minecraft.  
 **Explanation of `launch_minecraft` function parameters:**
 * **`java_path`** - _Required parameter, str type, the absolute path of your Java executable file_
 * **`game_path`** - _Required parameter, str type, the absolute path of your .minecraft folder_
