@@ -16,14 +16,14 @@
 
 ### 引用的库
 **Python 标准库:**
-* **`json`** - _用于解析 Minecraft 的 JSON 以获取各种配置参数_
-* **`platform`** - _获取详细的系统信息以确保正确启动 Minecraft_
-* **`os`** - _进行文件等操作_
-* **`subprocess`** - _运行 Minecraft 并接收其运行时日志_
-* **`uuid`** - _与 hashlib 结合使用，为 Minecraft 离线账户生成 UUID_
-* **`hashlib`** - _与 uuid 一起使用_
-* **`re`** - _用于正则表达式匹配和字符串内容替换_
-* **`zipfile`** - _用于解压 Natives_
+* **[`json`](https://docs.python.org/3/library/json.html)** - _用于解析 Minecraft 的 JSON 以获取各种配置参数_
+* **[`platform`](https://docs.python.org/3/library/platform.html)** - _获取详细的系统信息以确保正确启动 Minecraft_
+* **[`os`](https://docs.python.org/3/library/os.html)** - _进行文件等操作_
+* **[`subprocess`](https://docs.python.org/3/library/subprocess.html)** - _运行 Minecraft 并接收其运行时日志_
+* **[`uuid`](https://docs.python.org/3/library/uuid.html)** - _与 hashlib 结合使用，为 Minecraft 离线账户生成 UUID_
+* **[`hashlib`](https://docs.python.org/3/library/hashlib.html)** - _与 uuid 一起使用_
+* **[`re`](https://docs.python.org/3/library/re.html)** - _用于正则表达式匹配和字符串内容替换_
+* **[`zipfile`](https://docs.python.org/3/library/zipfile.html)** - _用于解压 Natives_
 
 ### 引用本项目示例
 **本项目支持被直接引用并调用函数启动 Minecraft。以下是调用示例：**
