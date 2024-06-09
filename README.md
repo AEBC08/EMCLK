@@ -16,14 +16,14 @@
 
 ### 引用的库
 **Python 标准库:**
-* **[`json`](https://docs.python.org/3/library/json.html)** - _解析 Minecraft JSON 配置_
-* **[`platform`](https://docs.python.org/3/library/platform.html)** - _获取系统信息_
-* **[`os`](https://docs.python.org/3/library/os.html)** - _文件操作_
-* **[`subprocess`](https://docs.python.org/3/library/subprocess.html)** - _运行 Minecraft_
-* **[`uuid`](https://docs.python.org/3/library/uuid.html)** - _生成 Minecraft 离线账户 UUID_
-* **[`hashlib`](https://docs.python.org/3/library/hashlib.html)** - _用于密码学散列函数_
-* **[`re`](https://docs.python.org/3/library/re.html)** - _正则表达式_
-* **[`zipfile`](https://docs.python.org/3/library/zipfile.html)** - _解压 Natives_
+* **`json`** - _用于解析 Minecraft 的 JSON 以获取各种配置参数_
+* **`platform`** - _获取详细的系统信息以确保正确启动 Minecraft_
+* **`os`** - _进行文件等操作_
+* **`subprocess`** - _运行 Minecraft 并接收其运行时日志_
+* **`uuid`** - _与 hashlib 结合使用，为 Minecraft 离线账户生成 UUID_
+* **`hashlib`** - _与 uuid 一起使用_
+* **`re`** - _用于正则表达式匹配和字符串内容替换_
+* **`zipfile`** - _用于解压 Natives_
 
 ### 引用本项目示例
 **本项目支持被直接引用并调用函数启动 Minecraft。以下是调用示例：**
@@ -49,20 +49,20 @@ IMCLK.launch_minecraft("Your Java path", "Your .minecraft dir path", "Minecraft 
 4. 调用 `launch_minecraft` 函数启动 Minecraft
 
 **`launch_minecraft` 函数参数:**
-* **`java_path`** - _Java 可执行文件路径_
-* **`game_path`** - _.minecraft 文件夹路径_
-* **`version_name`** - _Minecraft 版本名称_
-* **`max_use_ram`** - _最大内存分配 (MB)_
-* **`player_name`** - _玩家名称_
-* **`user_type`** - _用户类型 (默认 Legacy)_
-* **`auth_uuid`** - _登录 UUID (可选)_
-* **`access_token`** - _登录令牌 (可选)_
-* **`first_options_lang`** - _首次启动语言 (默认 zh_CN)_
-* **`options_lang`** - _启动语言 (可选)_
-* **`launcher_name`** - _启动器名称 (默认 IMCLK)_
-* **`launcher_version`** - _启动器版本 (默认 0.1145)_
-* **`return_methods`** - _输出方式 (可重写)_
-* **`out_jvm_params`** - _输出 JVM 参数 (可选)_
+* **`java_path`** - _必填参数，str类型，你的Java可执行文件的绝对路径_
+* **`game_path`** - _必填参数，str类型，你的.minecraft文件夹的绝对路径_
+* **`version_name`** - _必填参数，str类型，你想要启动的Minecraft版本的名称，注意这个名称是版本文件夹内的名称_
+* **`max_use_ram`** - _必填参数，str和int类型，最大分配内存，单位为1MB，默认最小值为256MB，请不要包含单位_
+* **`player_name`** - _必填参数，str类型，玩家名称_
+* **`user_type`** - _选填参数，str类型，用户类型，默认值为Legacy（即离线登录）_
+* **`auth_uuid`** - _选填参数，str类型，登录UUID，离线登录可以省略，填写则意味着自定义UUID，默认根据玩家名称自动生成UUID，请输入UUID3格式的UUID，可以是标准的UUID3或修剪后的UUID3_
+* **`access_token`** - _选填参数，str类型，正版账号登录令牌（Token），离线登录无效_
+* **`first_options_lang`** - _选填参数，str类型，首次启动时自动修改语言，默认值为zh_CN_
+* **`options_lang`** - _选填参数，str类型，启动时自动修改语言，默认为空且不会自动设置语言_
+* **`launcher_name`** - _选填参数，str类型，启动器名称，默认值为IMCLK_
+* **`launcher_version`** - _选填参数，str类型，启动器版本，默认为0.1145_
+* **`return_methods`** - _选填参数，type和IMCLKReturn类型，输出方式，可以覆盖日志和JVM参数的输出以及异常抛出的方式，默认值为IMCLKReturn，注意如果覆盖参数没有添加@staticmethod声明，只能传入实例，否则可以传入实例和类本身_
+* **`out_jvm_params`** - _选填参数，bool类型，输出JVM参数，修改return_methods参数可以覆盖输出方式，默认值为False_
 
 ### 示意图 (部分)
 <img src="https://github.com/AEBC08/IMCLK/blob/main/Diagram/Diagram.png" width="50%" height="50%">
