@@ -65,12 +65,11 @@ def unzip(zip_path: str, unzip_path: str):  # 解压文件函数
     zip_object.close()
 
 
-def launch_minecraft(java_path: str, game_path: str, version_name: str, max_use_ram: str | int, player_name: str, user_type: str="Legacy", auth_uuid="", access_token: str="None", options_lang: str = "zh_CN", launcher_name: str="IMCLK", launcher_version: str="0.1145", return_methods: type | IMCLKReturn=IMCLKReturn, out_jvm_params=False):
+def launch_minecraft(java_path: str, game_path: str, version_name: str, max_use_ram: str | int, player_name: str, user_type: str="Legacy", auth_uuid="", access_token: str="None", first_options_lang: str = "zh_CN", options_lang: str ="", launcher_name: str="IMCLK", launcher_version: str="0.1145", return_methods: type | IMCLKReturn=IMCLKReturn, out_jvm_params=False):
     if bool(re.search(pattern=r"[^a-zA-Z0-9\-_+.]", string=player_name)):  # 检测用户名是否合法
         return_methods.return_error_message(error_type="Param", error_code="0x004", error_message="The player name cannot contain characters other than numbers, dash (minus), underline, plus, or English period")
-    if auth_uuid != "":  # 检测是否定义了UUID
-        if not is_uuid(str(auth_uuid)):  # 检测UUID是否合法
-            return_methods.return_error_message(error_type="Param", error_code="0x005", error_message="This is an incorrect UUID, which must consist of 32 hexadecimal integer characters")
+    if auth_uuid != "" and not is_uuid(str(auth_uuid)):  # 检测是否定义了UUID,是否合法
+        return_methods.return_error_message(error_type="Param", error_code="0x005", error_message="This is an incorrect UUID, which must consist of 32 hexadecimal integer characters")
     jvm_params = ""
     jvm_params_list = []
     delimiter = ":"  # Class path分隔符
@@ -216,14 +215,17 @@ def launch_minecraft(java_path: str, game_path: str, version_name: str, max_use_
         for not_native in os.listdir(f"{game_path}/versions/{version_name}/natives-{system_type}"):
             if not not_native.endswith(".dll") and os.path.isfile(f"{game_path}/versions/{version_name}/natives-{system_type}/{not_native}"):
                 os.remove(f"{game_path}/versions/{version_name}/natives-{system_type}/{not_native}")
-        options_contents = options_lang = f"lang:{options_lang}"
+        jvm_params = jvm_params.replace("${natives_directory}", f"{game_path}/versions/{version_name}/natives-{system_type}")  # 依赖库文件夹路径
+    if not find_natives_dir or options_lang != "":
+        options_contents = lang = f"lang:{first_options_lang}"
+        if options_lang != "":
+            lang = f"lang:{options_lang}"
         if os.path.isfile(f"{game_path}/versions/{version_name}/options.txt"):
             with open(f"{game_path}/versions/{version_name}/options.txt", "r", encoding="utf-8") as options:
                 options_contents = options.read()
-            options_contents = re.sub(r"lang:\S+", options_lang, options_contents)
+            options_contents = re.sub(r"lang:\S+", lang, options_contents)
         with open(f"{game_path}/versions/{version_name}/options.txt", "w", encoding="utf-8") as options:
             options.write(options_contents)
-        jvm_params = jvm_params.replace("${natives_directory}", f"{game_path}/versions/{version_name}/natives-{system_type}")  # 依赖库文件夹路径
     natives_list.clear()
     jvm_params = jvm_params.replace("${game_directory}", f"\"{game_path}/versions/{version_name}\"")  # 游戏文件存储路径
     jvm_params = jvm_params.replace("${launcher_name}", launcher_name)  # 启动器名字
