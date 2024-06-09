@@ -131,12 +131,12 @@ def launch_minecraft(java_path: str, game_path: str, version_name: str, max_use_
     for libraries in version_json.get("libraries"):  # 遍历依赖
         class_path_list.append(f"{game_path}/libraries/{name_to_path(name=libraries.get('name'), return_methods=return_methods)}{delimiter}")
         if libraries.get("natives") is not None and libraries.get("natives").get(system_type) is not None:
-            natives_name = os.path.dirname(f"{game_path}/libraries/{name_to_path(name=libraries.get('name'), return_methods=return_methods)}")
-            if os.path.dirname(natives_name) not in natives_path_cache_list:
-                for natives in os.listdir(natives_name):
+            natives_path = os.path.dirname(f"{game_path}/libraries/{name_to_path(name=libraries.get('name'), return_methods=return_methods)}")
+            if os.path.dirname(natives_path) not in natives_path_cache_list:
+                for natives in os.listdir(natives_path):
                     if "natives" in natives:
-                        natives_list.append(f"{natives_name}/{natives}")
-                natives_path_cache_list.append(os.path.dirname(natives_name))
+                        natives_list.append(f"{natives_path}/{natives}")
+                natives_path_cache_list.append(os.path.dirname(natives_path))
     natives_path_cache_list.clear()
     class_path += "".join(class_path_list)
     class_path_list.clear()
@@ -180,12 +180,12 @@ def launch_minecraft(java_path: str, game_path: str, version_name: str, max_use_
                     if a_class_path not in class_path:
                         class_path_list.append(a_class_path)
                     if libraries.get("natives") is not None and libraries.get("natives").get( system_type) is not None:
-                        natives_name = os.path.dirname(f"{game_path}/libraries/{name_to_path(name=libraries.get('name'), return_methods=return_methods)}")
-                        if os.path.dirname(natives_name) not in natives_path_cache_list:
-                            for natives in os.listdir(natives_name):
+                        natives_path = os.path.dirname(f"{game_path}/libraries/{name_to_path(name=libraries.get('name'), return_methods=return_methods)}")
+                        if os.path.dirname(natives_path) not in natives_path_cache_list:
+                            for natives in os.listdir(natives_path):
                                 if "natives" in natives and natives not in natives_list:
-                                    natives_list.append(f"{natives_name}/{natives}")
-                            natives_path_cache_list.append(os.path.dirname(natives_name))
+                                    natives_list.append(f"{natives_path}/{natives}")
+                            natives_path_cache_list.append(os.path.dirname(natives_path))
                 natives_path_cache_list.clear()
                 class_path += "".join(class_path_list)
                 class_path_list.clear()
