@@ -4,7 +4,7 @@
 
 # IMCLK (IKun Minecraft Launcher Kernel)
 **这是一个基于 _Python_ 的 _Minecraft Java_ 版本启动器内核，隶属于 _RATE studio_ 团队。**  
-<img src="https://github.com/AEBC08/IMCLK/blob/main/RATEstudio_logio/RATEstudio.png" width="30%" height="30%">
+<img src="https://github.com/AEBC08/IMCLK/blob/main/RATEstudio_logo/RATEstudio.png" width="30%" height="30%">
 
 ## 开发者
 * **[`AEBC08`](https://github.com/AEBC08)** - _主开发者_
