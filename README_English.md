@@ -4,7 +4,7 @@
 
 # IMCLK (IKun Minecraft Launcher Kernel)
 **This is a new _Minecraft Java_ edition launcher kernel based on _Python_, belonging to the _RATE studio_ team.** 
-<img src="https://github.com/AEBC08/IMCLK/blob/main/RATEstudio_logio/RATEstudio.png" width="30%" height="30%">
+<img src="https://github.com/AEBC08/IMCLK/blob/main/RATEstudio_logo/RATEstudio.png" width="30%" height="30%">
 
 ## Developers
 * **[`AEBC08`](https://github.com/AEBC08)** - _Lead Developer_
