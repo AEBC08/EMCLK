@@ -31,7 +31,7 @@
 **本项目支持被直接引用并调用函数启动 Minecraft  
 以下是调用示例：**
 
-```python
+```Python
 import IMCLK
 
 log_list = []
