@@ -2,7 +2,7 @@
 * **[`简体中文`](https://github.com/AEBC08/IMCLK/blob/main/README.md)**
 * **[`English`](https://github.com/AEBC08/IMCLK/blob/main/README_English.md)**
 
-**If you need a version of C #, please go to: [_ ` AEBC08/IMCLK-For-CSharp `](https://github.com/AEBC08/IMCLK_For_CSharp)**
+**If you need a version of C#, please go to: [_ ` AEBC08/IMCLK-For-CSharp `](https://github.com/AEBC08/IMCLK_For_CSharp)**
 
 # IMCLK (IKun Minecraft Launcher Kernel)
 **This is a new _Minecraft Java_ edition launcher kernel based on _Python_, belonging to the _RATE studio_ team.** 
