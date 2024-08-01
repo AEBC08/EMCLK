@@ -2,7 +2,7 @@
 * **[`简体中文`](https://github.com/AEBC08/IMCLK/blob/main/README.md)**
 * **[`English`](https://github.com/AEBC08/IMCLK/blob/main/README_English.md)**
   
-**如果你需要 C# 的版本, 请前往: [_`AEBC08/IMCLK_For_CSharp`](https://github.com/AEBC08/IMCLK_For_CSharp)**
+**如果你需要 C# 的版本, 请前往: [_`AEBC08/IMCLK_For_CSharp`](https://github.com/AEBC08/EMCLK_For_CSharp)**
 
 # EMCLK (Elegant Minecraft Launcher Kernel)
 **这是一个基于 _Python_ 的 _Minecraft Java_ 版本启动器内核，隶属于 _RATE studio_ 团队。**  
