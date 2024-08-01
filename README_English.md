@@ -1,12 +1,12 @@
 # Language Selection
-* **[`简体中文`](https://github.com/AEBC08/IMCLK/blob/main/README.md)**
-* **[`English`](https://github.com/AEBC08/IMCLK/blob/main/README_English.md)**
+* **[`简体中文`](https://github.com/AEBC08/EMCLK/blob/main/README.md)**
+* **[`English`](https://github.com/AEBC08/EMCLK/blob/main/README_English.md)**
 
 **If you need a version of C#, please go to: [_ ` AEBC08/EMCLK_For_CSharp `](https://github.com/AEBC08/EMCLK_For_CSharp)**
 
 # EMCLK (Elegant Minecraft Launcher Kernel)
 **This is a new _Minecraft Java_ edition launcher kernel based on _Python_, belonging to the _RATE studio_ team.** 
-<img src="https://github.com/AEBC08/IMCLK/blob/main/RATEstudio_logo/RATEstudio.png" width="30%" height="30%">
+<img src="https://github.com/AEBC08/EMCLK/blob/main/RATEstudio_logo/RATEstudio.png" width="30%" height="30%">
 
 ## Developers
 * **[`AEBC08`](https://github.com/AEBC08)** - _Lead Developer_
@@ -68,8 +68,8 @@ IMCLK.launch_minecraft(r"Your Java path", r"Your .minecraft dir path", "Minecraf
 * **`out_jvm_params`** - _Optional parameter, bool type, output JVM parameters, modifying the return_methods parameter can override the output method, the default value is False_
 
 ### Diagrams (Partial)
-<img src="https://github.com/AEBC08/IMCLK/blob/main/Diagram/Diagram.png" width="50%" height="50%">
-<img src="https://github.com/AEBC08/IMCLK/blob/main/Diagram/Diagram1.png" width="50%" height="50%">
+<img src="https://github.com/AEBC08/EMCLK/blob/main/Diagram/Diagram.png" width="50%" height="50%">
+<img src="https://github.com/AEBC08/EMCLK/blob/main/Diagram/Diagram1.png" width="50%" height="50%">
 
 ### Update Log
 * **`2024.6.9`** - _Updated support for Forge Loader, NeoForged Loader, Quilt Loader, and mainstream Mod Loaders, supports unzipping Natives and setting Minecraft language on first launch, compatible with the latest and older versions of Minecraft, the lead developer has only tested versions from the latest Minecraft (1.20.6) to Minecraft 1.7.10, all of which can be launched normally_
