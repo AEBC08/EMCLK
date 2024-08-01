@@ -1,12 +1,12 @@
 # 语言选择
-* **[`简体中文`](https://github.com/AEBC08/IMCLK/blob/main/README.md)**
-* **[`English`](https://github.com/AEBC08/IMCLK/blob/main/README_English.md)**
+* **[`简体中文`](https://github.com/AEBC08/EMCLK/blob/main/README.md)**
+* **[`English`](https://github.com/AEBC08/EMCLK/blob/main/README_English.md)**
   
 **如果你需要 C# 的版本, 请前往: [_`AEBC08/EMCLK_For_CSharp`](https://github.com/AEBC08/EMCLK_For_CSharp)**
 
 # EMCLK (Elegant Minecraft Launcher Kernel)
 **这是一个基于 _Python_ 的 _Minecraft Java_ 版本启动器内核，隶属于 _RATE studio_ 团队。**  
-<img src="https://github.com/AEBC08/IMCLK/blob/main/RATEstudio_logo/RATEstudio.png" width="30%" height="30%">
+<img src="https://github.com/AEBC08/EMCLK/blob/main/RATEstudio_logo/RATEstudio.png" width="30%" height="30%">
 
 ## 开发者
 * **[`AEBC08`](https://github.com/AEBC08)** - _主开发者_
@@ -68,8 +68,8 @@ IMCLK.launch_minecraft("Your Java path", "Your .minecraft dir path", "Minecraft 
 * **`out_jvm_params`** - _选填参数，bool 类型，输出JVM参数，修改 return_methods 参数可以覆盖输出方式，默认值为 False_
 
 ### 示意图 (部分)
-<img src="https://github.com/AEBC08/IMCLK/blob/main/Diagram/Diagram.png" width="50%" height="50%">
-<img src="https://github.com/AEBC08/IMCLK/blob/main/Diagram/Diagram1.png" width="50%" height="50%">
+<img src="https://github.com/AEBC08/EMCLK/blob/main/Diagram/Diagram.png" width="50%" height="50%">
+<img src="https://github.com/AEBC08/EMCLK/blob/main/Diagram/Diagram1.png" width="50%" height="50%">
 
 ### 更新日志
 * **`2024.6.9`** - _更新了对 Forge Loader、NeoForged Loader、Quilt Loader 以及主流 Mod Loader 的支持，支持解压 Natives 文件和首次启动时设置 Minecraft 语言，兼容最新和旧版本的 Minecraft ，主开发者只测试了从当前最新的 Minecraft(1.20.6)到 Minecraft 1.7.10 的版本，这些版本都可以正常启动_
