@@ -33,17 +33,9 @@ Please note that all the comments in the code are in Chinese; you may choose to 
 Here is a demonstration call:**
 
 ```python
-import IMCLK
+import EMCLK
 
-log_list = []
-
-class Return(IMCLK.IMCLKReturn):
-    @staticmethod
-    def return_log(log: str):
-        log_list.append(log)
-        print(log)
-
-IMCLK.launch_minecraft(r"Your Java path", r"Your .minecraft dir path", "Minecraft version name", 1024, "Player name", return_methods=Return)
+EMCLK.launch_minecraft("Your Java path", "Your .minecraft dir path", "Minecraft version name", 1024, "Player name")
 ```
 
 **Explanation of the example:**
