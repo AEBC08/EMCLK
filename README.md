@@ -32,24 +32,10 @@
 以下是调用示例：**
 
 ```Python
-import IMCLK
+import EMCLK
 
-log_list = []
-
-class Return(IMCLK.IMCLKReturn):
-    @staticmethod
-    def return_log(log: str):
-        log_list.append(log)
-        print(log)
-
-IMCLK.launch_minecraft("Your Java path", "Your .minecraft dir path", "Minecraft version name", 1024, "Player name", return_methods=Return)
+EMCLK.launch_minecraft("Your Java path", "Your .minecraft dir path", "Minecraft version name", 1024, "Player name")
 ```
-
-**示例解释:**
-1. 引入本项目
-2. 创建 `log_list` 变量
-3. 继承 `IMCLKReturn` 类并重写 `return_log` 函数
-4. 调用 `launch_minecraft` 函数启动 Minecraft
 
 **`launch_minecraft` 函数参数:**
 * **`java_path`** - _必填参数，str 类型，你的 Java 可执行文件的绝对路径_
